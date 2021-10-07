@@ -1,0 +1,4 @@
+{
+  "read1": "(@.*)\\n(?P<CB1>.{9})(ACTGGCCTGCGA){e<=1}(?P<CB2>.{9})(GGTAGCGGTGACA){e<=1}(?P<CB3>.{9})(?P<MB>.{8})(.*)\\n\\+(.*)\\n(.*)\\n",
+  "read2": "(?P<name>@.*) .*\\n(?P<seq>.*)\\n\\+(.*)\\n(?P<qual>.*)\\n"
+}
